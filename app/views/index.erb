@@ -1,0 +1,12 @@
+<h1>Pitches</h1>
+<ul><% @pitches.each do |pitch| %>
+    <li><a href="/pitches/<%= pitch.id %>">
+    <%= pitch.title %></a>
+    <% end %></li>
+</ul>
+
+<form method="GET" action="/pitches/industry">
+    Industry: <input type="text" name="industry">
+    <input type="submit" id="Submit">
+</form>
+

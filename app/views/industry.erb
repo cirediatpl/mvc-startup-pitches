@@ -1,0 +1,5 @@
+<h1>Pitches by Industry</h1>
+<ul><% @pitches.each do |pitch| %>
+    <li><a href="/pitches/<%= pitch.id %>">
+    <%= pitch.title %>
+    <% end %></li>
