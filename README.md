@@ -41,7 +41,7 @@ You need to configure the app to support that but it is just 1 additional line o
 All the routes you would write in the `ApplicationController` can fit into the `PitchesController`.
 
 - Create a navbar that let's us navigate to the index route and the new route from any
-page within our program. Don't just copy and paste this into ever `.erb`.
+page within our program. Don't just copy and paste this into every `.erb`.
 
 - On the index route, you should have a search form that will allow you to search
 for a given industry and list out all the pitches under that industry. How can you
